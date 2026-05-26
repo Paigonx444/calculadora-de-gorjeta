@@ -130,3 +130,11 @@ main {
     color: var(--white);
     font-size: 1rem;
 }
+.resultados div > strong {
+    color: var(--light-green);
+    font-size: 2rem;
+}
+
+.resultados .gorjeta-total{
+    margin-bottom: 1.25rem;
+}
