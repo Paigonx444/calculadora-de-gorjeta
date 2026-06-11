@@ -50,7 +50,7 @@ main {
 }
 
 .conta div,
-.pessoas div {
+.pessoas .input-box {
     margin-top: 0.4rem;
     background-color: var(--green-100);
     padding: 0.4rem 1.2rem;
@@ -113,15 +113,15 @@ main {
 }
 .gorjeta input[type="button"]:hover,
 .resultados button:hover {
-     background-color: var(--green-hover);
-     cursor: pointer;
-     transition: 0.25s ease;
+    background-color: var(--green-hover);
+    cursor: pointer;
+    transition: 0.25s ease;
 }
 
 .gorjeta #outra {
     width: 100%;
     background-color: var(--green-100);
-    color: var(--green-500);
+    color: var(--green-800);
 }
 .gorjeta #outra::placeholder {
     color: var(--green-300);
